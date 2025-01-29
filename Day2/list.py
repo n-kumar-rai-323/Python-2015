@@ -1,31 +1,3 @@
-a = (1 ,2, 3)
-
-b = [1, 2, 3]
-
-b[1]=5
-print(b)
-
-# a[1]=8 This is not possible
-print(a)
-
-# Integer,float, Tuple, String are immutable datatypes in python 
-# list, Dictionary and set are the mutable datatyps in python 
-
-#Number : integer, float and complex
-print(type(4))
-
-
-# >>> import os
-# >>> clear = lambda:os.system("cls")
-
-
-n1= 3e2 # This is 3 * 10 ** 2. it gives 300.0
-print(n1)
-
-n2= 3e-2 # This is 3 * 10 ** -2. it gives 0.03
-print(n2)
-
-
 # list
 
 l = list()
@@ -62,3 +34,38 @@ print(a[1:8])
 print(a[:-4])
 print(a[-5:])
 print(a[-6:-2])
+print(a[-6: -8])# its give empty list 
+
+# List Operations 
+# Concatenates + 
+a = [1,2,3,4]
+b = [5,6,7,8]
+print(a+b) # This concatenates tow lists 
+
+print(a)
+print(b)
+
+
+#Repetition with * operator (broadcast)
+
+print(2 in a )
+print(5 not in b)
+
+#Operation
+#Methods: Method are the functions which are compulsarily called by an object 
+a.append(8)
+print(a)
+result = a.append("Nishan")
+print(a)
+print(result) #None
+
+a.extend(b)
+print(a)
+
+# insert
+a.insert(0,0)
+print(a)
+# remove
+a.remove(4)
+print(a)
+#Bulit-in Function
