@@ -48,3 +48,10 @@ print(21 in ages)
 print(22 not in ages)
 name = "Nishan"
 print("a" in name)
+
+
+# Assignment Operators
+a = 1
+a = a + 1 
+a += 1
+a -= 1
