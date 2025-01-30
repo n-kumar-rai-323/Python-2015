@@ -26,39 +26,3 @@ n2= 3e-2 # This is 3 * 10 ** -2. it gives 0.03
 print(n2)
 
 
-# list
-
-l = list()
-print(type(l))
-list = [] # Empty list can aslo be created in this way 
-print(type(list))
-
-
-# list are heteregenous data type 
-Many = [1, "hello", [5,6,7], (1,2,3)]
-print(Many)
-
-
-#Accessing list elements
-# List indexing starts from 0 for forward indexing and -1 for backward indexing 
-
-print(Many[0])
-print(Many[-1])
-print(Many[3][2])
-
-
-Many[3]= 10
-
-# Slicing in list 
-a= [0,1,2,3,4,5,6,7,8,9,10]
-print(a[:])
-print(a[:6]); print(a[0:6])
-
-print(a[5:])
-
-print(a[1:8])
-
-# Negative Indexing 
-print(a[:-4])
-print(a[-5:])
-print(a[-6:-2])
