@@ -69,3 +69,43 @@ print(a)
 a.remove(4)
 print(a)
 #Bulit-in Function
+
+
+
+# In Python, a list is a collection of items that are ordered, changeable (mutable), and allow duplicate values. Lists are created using square brackets [].
+# Creating a list
+my_list = [1, 2, 3, 4, 5]
+print(my_list)
+
+
+# Key Features:
+# Ordered: Items have a defined order.
+# Mutable: You can change, add, or remove items.
+# Allows Duplicates: Lists can have the same item more than once.
+
+# Common Operations: 
+# 1. Access Items: 
+# Using index (starts from 0)
+print(my_list[0])   # Output: 1
+print(my_list[-1])  # Output: 5 (last item)
+
+
+# 2. Change Items 
+my_list[1] = 20
+print(my_list)  # Output: [1, 20, 3, 4, 5]
+
+# 3. Add Items:
+# Add at the end
+my_list.append(6)
+# Add at a specific position
+my_list.insert(2, 15)
+print(my_list)  # Output: [1, 20, 15, 3, 4, 5, 6]
+
+# 4. Remove Items: 
+# Remove by value
+my_list.remove(20)
+# Remove by index
+del my_list[0]
+# Remove last item
+my_list.pop()
+print(my_list)
