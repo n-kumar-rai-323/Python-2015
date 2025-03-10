@@ -109,3 +109,18 @@ del my_list[0]
 # Remove last item
 my_list.pop()
 print(my_list)
+
+# 5. Loop Through a List:
+for item in my_list:
+    print(item)
+
+# 6.list Comprehension: 
+# Create a new list with squares of numbers
+squares = [x**2 for x in range(5)]
+print(squares)  # Output: [0, 1, 4, 9, 16]
+# What Happens Internally:
+# For x = 0: 0**2 = 0 → added to the list → [0]
+# For x = 1: 1**2 = 1 → added to the list → [0, 1]
+# For x = 2: 2**2 = 4 → added to the list → [0, 1, 4]
+# For x = 3: 3**2 = 9 → added to the list → [0, 1, 4, 9]
+# For x = 4: 4**2 = 16 → added to the list → [0, 1, 4, 9, 16]

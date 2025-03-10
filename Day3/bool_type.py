@@ -12,6 +12,7 @@ print(bool(-1))
 a=2
 b=2
 c=4
+
 print(a is b)
 
 

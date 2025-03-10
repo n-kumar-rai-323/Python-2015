@@ -14,3 +14,6 @@ print(b)
 
 # count
 print(b.count(1))
+
+
+
