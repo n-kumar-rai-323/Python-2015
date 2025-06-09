@@ -1,3 +1,5 @@
+
+
 def decorate_me(func):
     def inner_func():
         print("I am nishan rai")
@@ -6,6 +8,7 @@ def decorate_me(func):
 
 def message():
     print("Hello world")
+    
 
 result = decorate_me(message)
 result()
